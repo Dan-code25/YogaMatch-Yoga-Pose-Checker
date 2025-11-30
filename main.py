@@ -23,7 +23,7 @@ class MainWindow(QMainWindow):
   def __init__(self):
     super().__init__()
     self.setWindowTitle("YogaMatch")
-    self.resize(1600, 900)
+    self.resize(1200, 800)
     icon_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "images", "Logo.png")
     if os.path.exists(icon_path):
         self.setWindowIcon(QIcon(icon_path))    
