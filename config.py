@@ -23,7 +23,8 @@ MODEL_FILES = {
   "Sphinx Pose" : "sphinx_pose_detector.pkl",
   "Staff Pose" : "staff_pose_detector.pkl",
   "Tree Pose" : "tree_pose_detector.pkl",
-  "Upward Salute Pose": "upward_salute_pose.pkl"
+  "Upward Salute Pose": "upward_salute_pose.pkl",
+  "Warrior III Pose": "warrior_iii_pose_detector.pkl"
 }
 
 # Images for the guide
@@ -46,5 +47,6 @@ IMAGE_MAP = {
   "Sphinx Pose" : "images/Sphinx_Pose.png",
   "Staff Pose" : "images/staff_pose.png",
   "Tree Pose" : "images/tree_pose.png",
-  "Upward Salute Pose": "images/Upward Salute.png"
+  "Upward Salute Pose": "images/Upward Salute.png",
+  "Warrior III Pose": "images/Warrior_3.png"
 }
