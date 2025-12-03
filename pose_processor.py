@@ -59,8 +59,8 @@ class VideoThread(QThread):
             static_image_mode=False, 
             model_complexity=1, 
             smooth_landmarks=True, 
-            min_detection_confidence=0.5, 
-            min_tracking_confidence=0.5
+            min_detection_confidence=0.7, 
+            min_tracking_confidence=0.7
         )
         mp_drawing = mp.solutions.drawing_utils
 
@@ -100,7 +100,7 @@ class VideoThread(QThread):
                     avg_conf = np.mean(self.confidence_buffer)
                     conf_str = f"{avg_conf:.1f}%"
 
-                    if prediction == 1 and avg_conf >= 80:
+                    if prediction == 1 and avg_conf >= 85:
                         status_msg = "Correct Pose"
                         is_correct = True
                         
