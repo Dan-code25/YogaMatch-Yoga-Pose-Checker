@@ -16,8 +16,7 @@ MODEL_FILES = {
   "Hero Pose" : "Pose Hero`.pkl",
   "Inverted Lake Pose" : "Inverted Lake Pose`.pkl",
   "Sphinx Pose" : "sphinx_pose_detector.pkl",
-  "Upward Salute Pose": "upward_salute_pose.pkl",
-  "Warrior III Pose": "warrior_iii_pose_detector.pkl"
+  "Upward Salute Pose": "upward_salute_pose.pkl"
 }
 
 # Images for the guide
@@ -33,6 +32,5 @@ IMAGE_MAP = {
   "Hero Pose" : "images/Pose Hero Pic.png",
   "Inverted Lake Pose" : "images/Inverted Pic.png",
   "Sphinx Pose" : "images/Sphinx_Pose.png",
-  "Upward Salute Pose": "images/Upward Salute.png",
-  "Warrior III Pose": "images/Warrior_3.png"
+  "Upward Salute Pose": "images/Upward Salute.png"
 }
